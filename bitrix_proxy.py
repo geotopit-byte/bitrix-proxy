@@ -14,7 +14,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 app = Flask(__name__)
-BITRIX_WEBHOOK = 'https://izyskaniya.bitrix24.ru/rest/13614/rj3pqolk1fiu6hfr/'
+BITRIX_WEBHOOK = 'https://izyskaniya.bitrix24.ru/rest/1005/1eahl4oku941fawb/'
 
 def call_bitrix(method, params=None):
     """Вызов API Битрикс24 через POST"""
